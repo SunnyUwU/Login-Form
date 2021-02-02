@@ -89,3 +89,45 @@ form input[type="submit"]:hover {
     letter-spacing: 0.5px;
     background: linear-gradient(to right, #4776e6, #8e54e9);
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.8rem; 
+    margin: 0 1.5rem 0 1.5rem;
+    text-align: center;
+}
+
+.footer .social-fields {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.footer .social-fields a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+.footer .social-fields a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-fields.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+    cursor: pointer;
+}
+
+.footer .social-fields.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    cursor: pointer;
+}
+
